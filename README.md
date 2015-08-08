@@ -1,9 +1,8 @@
 # zid #
 
-An 'id' generator, named only because it was the only package left which was '?id'.
+Generate random strings made up of [A-Za-z0-9] that are also URL compatible. Only good package name of '?id' left.
 
-Contains uppercase, lowercase letetrs and the numbers 0-9 only. No underscore, no dash, no slash or backslash, indeed
-no other chars.
+You choose the length. No underscore, no dash, no slash or backslash, indeed no other chars.
 
 ## Synopsis ##
 

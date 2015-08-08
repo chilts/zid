@@ -1,7 +1,7 @@
 {
   "name": "zid",
   "version": "0.1.0",
-  "description": "Generate URL compatible random strings.",
+  "description": "Generate random strings made up of [A-Za-z0-9] that are also URL compatible.",
   "homepage": "https://github.com/chilts/zid",
   "repository": {
     "type": "git",
