@@ -1,0 +1,18 @@
+{
+  "name": "zid",
+  "version": "0.1.0",
+  "description": "Generate URL compatible random strings.",
+  "license": "MIT",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "devDependencies": {
+    "tape": "^4.0.3"
+  },
+  "keywords": [
+    "random",
+    "string",
+    "token",
+    "url"
+  ]
+}
