@@ -31,7 +31,7 @@ test('test contents', function(t) {
 })
 
 test('test throw', function(t) {
-  t.plan(3)
+  t.plan(6)
 
   try {
     zid()
@@ -51,6 +51,30 @@ test('test throw', function(t) {
 
   try {
     zid(-1)
+    t.fail('Should have thrown')
+  }
+  catch(err) {
+    t.ok('Yes, this throws', 'Throws with negative numbers')
+  }
+
+  try {
+    zid(NaN)
+    t.fail('Should have thrown')
+  }
+  catch(err) {
+    t.ok('Yes, this throws', 'Throws with zero')
+  }
+
+  try {
+    zid(Infinity)
+    t.fail('Should have thrown')
+  }
+  catch(err) {
+    t.ok('Yes, this throws', 'Throws with zero')
+  }
+
+  try {
+    zid('hello')
     t.fail('Should have thrown')
   }
   catch(err) {

@@ -14,6 +14,12 @@ function id(len) {
   if ( !len ) {
     throw new Error('len must be provided')
   }
+  if ( typeof len !== 'number' ) {
+    throw new Error('len must be a number')
+  }
+  if ( len === Infinity ) {
+    throw new Error('len must be less than Infinity')
+  }
   if ( len < 0 ) {
     throw new Error('len must be greater than 0')
   }

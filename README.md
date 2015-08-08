@@ -15,6 +15,18 @@ console.log(zid(6))
 console.log(zid(12))
 // -> 'vy9gDZwKJmdK'
 
+console.log(zid(0))
+// -> throws
+
+console.log(zid(-1))
+// -> throws
+
+console.log(zid())
+// -> throws
+
+console.log(zid('hello'))
+// -> throws
+
 ```
 
 ## AUTHOR ##
