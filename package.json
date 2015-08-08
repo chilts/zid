@@ -2,13 +2,23 @@
   "name": "zid",
   "version": "0.1.0",
   "description": "Generate URL compatible random strings.",
-  "license": "MIT",
+  "homepage": "https://github.com/chilts/zid",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chilts/zid.git"
+  },
   "scripts": {
     "test": "tape test.js"
   },
   "devDependencies": {
     "tape": "^4.0.3"
   },
+  "author": {
+    "name": "Andrew Chilton",
+    "email": "andychilton@gmail.com",
+    "url": "http://chilts.org/"
+  },
+  "license": "MIT",
   "keywords": [
     "random",
     "string",

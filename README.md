@@ -18,4 +18,17 @@ console.log(zid(12))
 
 ```
 
+## AUTHOR ##
+
+Written by [Andrew Chilton](http://chilts.org/):
+
+* [Blog](http://chilts.org/)
+* [GitHub](https://github.com/chilts)
+* [Twitter](https://twitter.com/andychilton)
+* [Instagram](http://instagram.com/thechilts)
+
+# License #
+
+MIT
+
 (Ends)
