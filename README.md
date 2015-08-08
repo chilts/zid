@@ -1,5 +1,9 @@
 # zid #
 
+[![Build Status](https://secure.travis-ci.org/chilts/zid.png?branch=master)](http://travis-ci.org/chilts/zid)
+
+[![NPM](https://nodei.co/npm/zid.png?downloads=true)](https://nodei.co/npm/zid/)
+
 Generate random strings made up of [A-Za-z0-9] that are also URL compatible. Only good package name of '?id' left.
 
 You choose the length. No underscore, no dash, no slash or backslash, indeed no other chars.
