@@ -2,10 +2,10 @@
   "name": "zid",
   "version": "0.2.0",
   "description": "Generate random strings made up of [A-Za-z0-9] that are also URL compatible.",
-  "homepage": "https://github.com/chilts/zid",
+  "homepage": "https://gitlab.com/chilts/zid",
   "repository": {
     "type": "git",
-    "url": "git://github.com/chilts/zid.git"
+    "url": "https://gitlab.com/chilts/zid.git"
   },
   "scripts": {
     "test": "tape test.js"
@@ -19,7 +19,7 @@
   "author": {
     "name": "Andrew Chilton",
     "email": "andychilton@gmail.com",
-    "url": "http://chilts.org/"
+    "url": "https://chilts.org/"
   },
   "license": "MIT",
   "keywords": [
