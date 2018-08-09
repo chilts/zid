@@ -35,12 +35,12 @@ console.log(zid('hello'))
 
 ## AUTHOR ##
 
-Written by [Andrew Chilton](http://chilts.org/):
+Written by [Andrew Chilton](https://chilts.org/):
 
-* [Blog](http://chilts.org/)
-* [GitHub](https://github.com/chilts)
+* [Blog](https://chilts.org/)
 * [Twitter](https://twitter.com/andychilton)
-* [Instagram](http://instagram.com/thechilts)
+* [GitLab](https://gitlab.com/chilts)
+* [GitHub](https://github.com/chilts) (deprecated)
 
 # License #
 
