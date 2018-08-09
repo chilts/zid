@@ -2,6 +2,9 @@
 
 'use strict'
 
+// npm
+const mathRandom = require('math-random')
+
 // --------------------------------------------------------------------------------------------------------------------
 // setup
 
@@ -25,7 +28,7 @@ function id(len) {
   }
   var str = ''
   while(len > 0) {
-    var i = Math.floor(Math.random() * alphabetLength)
+    var i = Math.floor(mathRandom() * alphabetLength)
     str += alphabet[i]
     len--
   }
