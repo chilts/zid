@@ -33,6 +33,20 @@ console.log(zid('hello'))
 
 ```
 
+### Options ###
+
+#### `lookalikes` ####
+
+You can also exclude lookalike chars such as `OISZbl` by using
+`{ lookalikes: false }`:
+
+```
+console.log(zid({ lookalikes: false }))
+// -> returns an ID using these chars only:
+// -> ABCDEFGHJKLMNPQRTUVWXYacdefghijkmnopqrstuvwxyz0123456789
+// -> i.e. no OISZbl
+```
+
 ## AUTHOR ##
 
 Written by [Andrew Chilton](https://chilts.org/):
