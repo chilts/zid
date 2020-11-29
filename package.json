@@ -1,11 +1,11 @@
 {
   "name": "zid",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Generate random strings made up of [A-Za-z0-9] that are also URL compatible.",
-  "homepage": "https://gitlab.com/chilts/zid",
+  "homepage": "https://github.com/chilts/zid",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/chilts/zid.git"
+    "url": "https://github.com/chilts/zid.git"
   },
   "scripts": {
     "test": "tape test.js"
